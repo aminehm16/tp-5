@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+// Fonction pour calculer la factorielle
+int fact(int n) {
+    if (n == 0) {
+        return 1;
+    }
+
+    int result = 1;
+    while (n > 0) {
+        result *= n;
+        n--;
+    }
+
+    return result;
+}
+
+int main() {
+    int result;
+    int n = 5;
+
+    // Appel de la fonction
+    result = fact(n);
+
+    // Affiche le résultat
+    printf("Factorielle de %d : %d\n", n, result);
+
+    return 0;
+}
