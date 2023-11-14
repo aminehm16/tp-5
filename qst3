@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    for (int t0 = 1; t0 <= 10; t0++) {
+        // Affiche la valeur du compteur
+        printf("%d\n", t0);
+    }
+
+    return 0;
+}
