@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int number_1 = 5;
+    int number_2 = 7;
+
+    if (number_1 == number_2) {
+        printf("Égaux\n");
+    } else if (number_1 > number_2) {
+        printf("Plus grand\n");
+    } else {
+        printf("Plus petit\n");
+    }
+
+    return 0;
+}
