@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int number_1 = 5; // Premier entier (vous pouvez modifier cette valeur)
+    int number_2 = 7; // Deuxième entier (vous pouvez modifier cette valeur)
+    int resultat;
+
+    // Addition des deux entiers
+    resultat = number_1 + number_2;
+
+    // Affichage du résultat
+    printf("Le résultat est : %d\n", resultat);
+
+    return 0;
+}
